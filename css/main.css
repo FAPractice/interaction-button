@@ -1,1 +1,61 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope";
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+:root {
+  --primary-color: #fff;
+  --foreground-color: #222324;
+  --accent-color: #007fff;
+}
+
+.buttonContainer {
+  cursor: pointer;
+  margin: 4em;
+  padding: 0.5em 1em;
+  color: var(--foreground-color);
+  -webkit-box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.24);
+          box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.buttonContainer .buttonItems {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.buttonContainer .buttonItems .primaryIcon {
+  width: 1.4em;
+  height: 1.4em;
+  fill: var(--accent-color);
+}
+
+.buttonContainer .buttonItems .label {
+  margin: 0 2em;
+}
+
+.buttonContainer .buttonItems .secondaryIcon {
+  width: 1.4em;
+  height: 1.4em;
+  fill: var(--foreground-color);
+}
+
+.buttonContainer:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.2);
+}
+
+a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=main.css.map */
