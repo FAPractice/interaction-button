@@ -1,0 +1,9 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="PrimaryIcon">
+<rect width="128" height="128" fill="white"/>
+<g id="Group 1">
+<path id="BubbleLeft" d="M53 31C53 22.1634 60.1634 15 69 15H113V44C113 52.8366 105.837 60 97 60H69C60.1634 60 53 52.8366 53 44V31Z" fill="#C4C4C4"/>
+<path id="BubbleRight" d="M15 67H59C67.8366 67 75 74.1634 75 83V96C75 104.837 67.8366 112 59 112H31C22.1634 112 15 104.837 15 96V67Z" fill="#C4C4C4"/>
+</g>
+</g>
+</svg>
